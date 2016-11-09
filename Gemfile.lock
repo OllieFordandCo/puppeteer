@@ -4,6 +4,7 @@ GEM
     addressable (2.4.0)
     colorator (1.1.0)
     ffi (1.9.14)
+    ffi (1.9.14-x64-mingw32)
     forwardable-extended (2.6.0)
     jekyll (3.3.0)
       addressable (~> 2.4)
@@ -33,24 +34,26 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rake (11.3.0)
-    rb-fsevent (0.9.7)
+    rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
-    scss_lint (0.50.2)
+    scss_lint (0.50.3)
       rake (>= 0.9, < 12)
       sass (~> 3.4.20)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 3.3.0)
   jekyll-redirect-from (~> 0.11.0)
   jekyll-sitemap (~> 0.11.0)
+  jekyll-watch
   scss_lint (~> 0.50.2)
 
 BUNDLED WITH
-   1.13.2
+   1.13.6

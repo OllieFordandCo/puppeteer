@@ -27,6 +27,7 @@
             .#{$abbrev}r-#{$breakpoint}-#{$size} { #{$prop}-right:  $length-x !important; }
             .#{$abbrev}b-#{$breakpoint}-#{$size} { #{$prop}-bottom: $length-y !important; }
             .#{$abbrev}l-#{$breakpoint}-#{$size} { #{$prop}-left:   $length-x !important; }
+
             .#{$abbrev}x-#{$breakpoint}-#{$size} {
               #{$prop}-right:  $length-x !important;
               #{$prop}-left:   $length-x !important;

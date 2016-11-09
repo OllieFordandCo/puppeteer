@@ -35,6 +35,7 @@
   right: 0;
   left: 0;
   z-index: $zindex-navbar-fixed;
+  min-height: $spacer-navbar-xs;
 
   // Undo the rounded corners
   @include media-breakpoint-up(sm) {
@@ -62,6 +63,30 @@
   }
 }
 
+
+// Fix the left/right navbars when screen real estate supports it
+.navbar-fixed-left,
+.navbar-fixed-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: $zindex-navbar-fixed;
+  min-width: $spacer-navbar-xs;
+  width: $spacer-navbar-md;
+
+  // Undo the rounded corners
+  @include media-breakpoint-up(sm) {
+    @include border-radius(0);
+  }
+}
+
+.navbar-fixed-left {
+  left: 0;
+}
+
+.navbar-fixed-right {
+  right: 0;
+}
 
 //
 // Brand/project name

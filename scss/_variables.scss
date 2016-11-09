@@ -127,6 +127,11 @@ $enable-print-styles:       true !default;
 // You can add more entries to the $spacers map, should you need more variation.
 
 $spacer:   1rem !default;
+
+$spacer-navbar-xs: 55px !default;
+$spacer-navbar-sm: 220px !default;
+$spacer-navbar-md: 300px !default;
+
 $spacer-x: $spacer !default;
 $spacer-y: $spacer !default;
 $spacers: (
@@ -153,6 +158,10 @@ $spacers: (
   5: (
     x: ($spacer-x * 3),
     y: ($spacer-y * 3)
+  ),
+  navbar: (
+    x: ($spacer-navbar-md),
+    y: ($spacer-navbar-xs)
   )
 ) !default;
 $border-width: 1px !default;
