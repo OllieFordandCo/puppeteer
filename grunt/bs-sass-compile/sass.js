@@ -26,6 +26,12 @@ module.exports = function configureRubySass(grunt) {
           'dist/css/<%= pkg.name %>-reboot.css': 'scss/<%= pkg.name %>-reboot.scss'
         }
       },
+      examples: {
+        options: options,
+        files: {
+          'docs/examples/**/*.css': 'docs/examples/**/*.scss'
+        }
+      },
       docs: {
         options: options,
         files: {

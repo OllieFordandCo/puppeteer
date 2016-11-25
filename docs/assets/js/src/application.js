@@ -11,7 +11,6 @@
  */
 
 /* global Clipboard, anchors */
-
 !function ($) {
   'use strict';
 

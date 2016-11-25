@@ -23,6 +23,11 @@ module.exports = function configureLibsass(grunt) {
           'dist/css/<%= pkg.name %>-reboot.css': 'scss/<%= pkg.name %>-reboot.scss'
         }
       },
+      examples: {
+        files: {
+          'docs/examples/admin/admin.css': 'docs/examples/admin/admin.scss'
+        }
+      },
       docs: {
         files: {
           'docs/assets/css/docs.min.css': 'docs/assets/scss/docs.scss',
